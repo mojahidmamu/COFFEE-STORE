@@ -22,6 +22,22 @@ const Card = () => {
         We served the coffee to you <br /> maintaining the best quality
         </p>
       </div>
+      {/* card no-3 */}
+      <div>
+        <img className="mb-3" src={card3} alt="" />
+        <h4 className="font-bold text-xl text-[#331A15] opacity-100">Pure Grades</h4>
+        <p className="text-[#1B1A1A] opacity-100">
+        The coffee is made of the green <br /> coffee beans which you will love
+        </p>
+      </div>
+      {/* card no-2 */}
+      <div>
+        <img className="mb-3" src={card2} alt="" />
+        <h4 className="font-bold text-xl text-[#331A15] opacity-100">High Quality</h4>
+        <p className="text-[#1B1A1A] opacity-100">
+        We served the coffee to you <br /> maintaining the best quality
+        </p>
+      </div>
     </div>
   );
 };

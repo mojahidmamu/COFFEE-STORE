@@ -5,13 +5,13 @@ import card4 from "../../assets/all_image/images/icons/4.png";
 
 const Card = () => {
   return (
-    <div className="bg-[#ECEAE3]">
+    <div className="bg-[#ECEAE3] py-10 px-14">
       {/* card no-1 */}
       <div>
-        <img src={card1} alt="" />
-        <h4 className="font-bold text-xl">Awesome Aroma</h4>
-        <p className="text-gray-500">
-          You will definitely be a fan of the design <br /> & aroma of your coffee
+        <img className="mb-3" src={card1} alt="" />
+        <h4 className="font-bold text-xl text-[#331A15] opacity-100">Awesome Aroma</h4>
+        <p className="text-[#1B1A1A] opacity-100">
+          You will definitely be a fan of the <br />  design & aroma of your coffee
         </p>
       </div>
     </div>

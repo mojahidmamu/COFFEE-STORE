@@ -5,7 +5,7 @@ import card4 from "../../assets/all_image/images/icons/4.png";
 
 const Card = () => {
   return (
-    <div className="bg-[#ECEAE3] py-10 px-14">
+    <div className="bg-[#ECEAE3] py-10 px-14 flex flex-row justify-evenly">
       {/* card no-1 */}
       <div>
         <img className="mb-3" src={card1} alt="" />

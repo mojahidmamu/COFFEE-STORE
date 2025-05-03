@@ -14,6 +14,14 @@ const Card = () => {
           You will definitely be a fan of the <br />  design & aroma of your coffee
         </p>
       </div>
+      {/* card no-2 */}
+      <div>
+        <img className="mb-3" src={card2} alt="" />
+        <h4 className="font-bold text-xl text-[#331A15] opacity-100">High Quality</h4>
+        <p className="text-[#1B1A1A] opacity-100">
+        We served the coffee to you <br /> maintaining the best quality
+        </p>
+      </div>
     </div>
   );
 };

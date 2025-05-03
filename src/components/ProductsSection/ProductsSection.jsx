@@ -1,5 +1,6 @@
 import React from "react";
 import ProductBgImage from "../../assets/all_image/images/more/1.png";
+import PopularProductSection from "../PopularProductSection/PopularProductSection";
 
 const ProductsSection = () => {
   return (
@@ -19,7 +20,7 @@ const ProductsSection = () => {
       </div>
       {/* Popular Products Section */}
       <div>
-        
+        <PopularProductSection></PopularProductSection>
       </div>
     </div>
   );
